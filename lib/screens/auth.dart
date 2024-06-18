@@ -133,7 +133,7 @@ class _AuthScreenState extends State<AuthScreen> {
                           ),
                            if(!_isLogin)
                           TextFormField(
-                            decoration: InputDecoration(labelText: 'Username'),
+                            decoration: const InputDecoration(labelText: 'Username'),
                             enableSuggestions: false,
                             validator: (value){
                               if(value == null || value.isEmpty || value.trim().length < 4){
